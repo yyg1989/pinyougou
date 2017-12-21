@@ -114,5 +114,11 @@ public class GoodsController {
 	public void testst(){
 		System.out.println("测试git");
 	}
+
+	public void tetstst(){
+
+		System.out.println();
+
+	}
 	
 }
