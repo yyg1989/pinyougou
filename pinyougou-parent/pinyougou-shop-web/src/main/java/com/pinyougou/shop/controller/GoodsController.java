@@ -110,6 +110,9 @@ public class GoodsController {
 	public PageResult search(@RequestBody TbGoods goods, int page, int rows  ){
 		return goodsService.findPage(goods, page, rows);		
 	}
-
+	@RequestMapping("test")
+	public void testst(){
+		System.out.println("测试git");
+	}
 	
 }
